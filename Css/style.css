@@ -1,0 +1,57 @@
+.item h1{
+  font-family: "Lilita One", serif;
+  font-size: 5rem;
+  color: #000000;
+  border-radius: 4rem 0 4rem ;
+  letter-spacing: .7rem;
+}
+ p{
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+.my-1{
+  font-family: "Josefin Sans", serif;
+}
+#p p{
+  font-family: "Gamja Flower", serif;
+  position: relative;
+  background-image: url(/Cover\ idea2.jpeg);
+  background-repeat: no-repeat ;
+  background-size: 30%;
+  background-position: center;
+  width: fit-content;
+}
+#p p::after{
+  content: ',,';
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  right: 20px;
+  bottom: 10%;
+  color: rgb(71, 129, 255);
+  font-size: 4rem;
+font-family: "Playfair Display", serif;
+}
+#p p::before{
+  content: ',,';
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  left: -50px;
+  top: 15%;
+color: rgb(71, 129, 255);
+font-size: 4rem;
+font-family: "Playfair Display", serif;
+transform: rotate(180deg);
+}
+@media (max-width :720px) {
+  .item h1{  
+    font-size: 2rem;
+    letter-spacing: .2rem;
+  }
+  .btn{
+    width: 50% ;
+  }
+
+}
